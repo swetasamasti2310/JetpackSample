@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JetpackSample</string>
+    <string name="welcome_jetpack">Welcome to Jetpack Sample app</string>
+    <string name="data_binding">Data Binding</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="manage_employees">Manage Your EMployees</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="show_employees">Show All Employees</string>
+    <string name="enter_employee_name">Enter Employee Name</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="add">Add</string>
+    <string name="add_new_employee">Add New Employee</string>
+
+    <string name="from_dept">From Dept: %s</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".architecture.databinding.EmployeeManagementActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/manage_employees">
+    </TextView>
+
+    <Button
+        android:id="@+id/addEmployeeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="startAddEmployeeActivity"
+        android:text="@string/add_employee">
+    </Button>
+
+    <Button
+        android:id="@+id/deleteEmployeeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="startDeleteEmployeeActivity"
+        android:text="@string/delete_employee">
+    </Button>
+
+    <Button
+        android:id="@+id/showEmployeesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="startShowEmployeesActivity"
+        android:text="@string/show_employees">
+    </Button>
+
+</LinearLayout>

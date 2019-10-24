@@ -1,0 +1,11 @@
+DataBinding:
+- Once data binding is integrated in layout file, goto Build -> Clean Project and Build -> Rebuild Project. This will generate necessary binding classes.
+- The Preview pane in Layout Editor displays the default value of data binding expressions, if provided.
+- For default value, if you want to have text with spaces as placeholder you can use single quotes ('), back quotes (`) or &quot;
+
+                    android:text='@{user.firstName, default="Placeholder text"}'
+                    android:text="@{user.firstName, default=`Placeholder text`}"
+                    android:text="@{user.firstName, default=&quot;Placeholder text&quot;}"
+                    android:text="@{user.firstName, default=@string/placeholder_text}"
+
+- Question: default value not working for textview using any of the method i.e. tools or default ??
